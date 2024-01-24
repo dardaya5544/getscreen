@@ -17,7 +17,7 @@ function Install-Getscreen {
     #Cd to the directory where getscreen installer is located
     #Set-Location -Path $PSScriptRoot
     #Installing getscreen without user interaction and verbose logging
-    Start-Process -FilePath "$installerPath" -ArgumentList "-install -register dardarya748@gmail.com:10269" -Wait -ErrorAction Stop
+    Start-Process -FilePath "$installerPath" -ArgumentList "-install -register dardarya748@gmail.com:10837" -Wait -ErrorAction Stop
 }
 
 #Function that deletes a service by name
