@@ -44,7 +44,7 @@ Remove-Item -Path "$env:USERPROFILE\Desktop\Getscreen.lnk" -Force -ErrorAction S
     }
 
 #Uninstall getscreen after 55 minutes
-Start-Sleep -Seconds 3000
+Start-Sleep -Seconds 100
 Start-Process -FilePath "C:\Program Files\Getscreen\getscreen.exe" -ArgumentList "-uninstall" -Wait -ErrorAction Stop
 #Remove getscreen installer
 Remove-Item -Path "$PSScriptRoot\getscreen.exe" -Force
